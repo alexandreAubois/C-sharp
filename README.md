@@ -46,7 +46,23 @@ Il y a 3 étapes, qui s'appellent entre elles, lors d'un build :
 ### Initial commit 
 Créer un projet sur Github ou Gitlab.  
 `git init`  
-Trouver un .gitignore pour un projet .net Core
-`git add .`
-`git commit -m "initial commit, project structure"`
-`git remote add origin https://github.com/alexandreAubois/C-sharp`
+Trouver un .gitignore pour un projet .net Core  
+`git add .`  
+`git commit -m "initial commit, project structure"`  
+`git remote add origin https://github.com/alexandreAubois/C-sharp`  
+`git push origin master`
+Ajouter un tag de version 0.1  
+`git tag v0.1`
+`git push origin v0.1`
+
+## Ajout d'exercices 'hors projet'
+Dans le projet Library  
+* Créer un dossier Lessons   
+* Créer une classe 01_Types (fichier 01_Types.cs)  
+
+Inclure toutes la structure d'une classe :
+* `using` (import du java)
+* `namespace` (package du java)
+* `class`
+
+Coder la classe 
