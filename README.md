@@ -65,4 +65,6 @@ Inclure toutes la structure d'une classe :
 * `namespace` (package du java)
 * `class`
 
-Coder la classe 
+Coder la classe (voir code).  
+L'appeler dans le main().  
+

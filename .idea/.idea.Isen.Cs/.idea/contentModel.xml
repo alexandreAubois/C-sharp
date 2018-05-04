@@ -20,10 +20,15 @@
       </e>
       <e p="Isen.Cs.Library" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="IMyCollection.cs" t="Include" />
         <e p="Isen.Cs.Library.csproj" t="IncludeRecursive" />
         <e p="Lessons" t="Include">
           <e p="A_Types.cs" t="Include" />
+          <e p="B_Enumerations.cs" t="Include" />
+          <e p="C_Arrays.cs" t="Include" />
+          <e p="D_MyCollection.cs" t="Include" />
         </e>
+        <e p="MyCollection.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netstandard2.0" t="Include">
